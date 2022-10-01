@@ -1,0 +1,68 @@
+// Working with Numbers
+
+// Adding : just use plus sign
+var sum = 10 + 25;
+
+console.log(sum)
+
+// Subtracting: use minus sign
+
+var difference = 879 - 283;
+
+console.log(difference);
+
+console.log(difference - sum);
+
+// Mutiplication: use * sign
+
+var product = 79 * 79;
+
+console.log(product);
+
+console.log(sum * product * difference);
+
+// Division : use / sign
+
+var quotient = 64 /8; 
+
+console.log(quotient);
+
+product1 = sum * product * difference;
+
+console.log(product1 / quotient)
+
+// Incremating Numbers
+
+var myVar = 23;
+
+myVar++;
+
+console.log(myVar++);
+// Decrement Numbers
+
+console.log(myVar--)
+
+// Finding reminder
+
+var remainder;
+remainder = 23 % 2;
+
+console.log(remainder);
+
+// += & -= & *= & /=
+
+sum += 12;
+
+console.log(sum);
+
+difference -= 5;
+
+console.log(difference);
+
+product *= 45;
+
+console.log(product);
+
+quotient /= 2;
+
+console.log(quotient);
